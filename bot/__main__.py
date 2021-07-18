@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Hillard-har | @AlbertEinsteinTG
+# (c) @niranjanvram | @fileshomeofficial
 
 from .bot import Bot
 
