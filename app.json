@@ -1,15 +1,15 @@
 {
-    "name": "Adv-Filter-Ts-Bot-Clone",
-    "description": "A Filter Bot Which Doesnt Need Manuall Filter Adding",
-    "logo": "https://telegra.ph/file/eee1877ba8a1e7077b2a8.jpg",
+    "name": "Adv Filter Bot",
+    "description": "A Filter Bot Which Does'nt Need Manual Filter Adding",
+    "logo": "https://telegra.ph/file/38cab971c480e15ab9c53.jpg",
     "keywords": [
         "Auto",
         "Filter",
         "Mongo DB"
     ],
-    "website": "https://github.com/Ts-bots",
-    "repository": "https://github.com/Ts-Bots/Adv-Auto-filter-Ts-bot-Clone",
-    "success_url": "https://telegram.dog/Ts_bots",
+    "website": "https://t.me/fileshomegroup",
+    "repository": "https://github.com/NiranjanVRam/Adv-Auto-filter-Ts-bot-Clone",
+    "success_url": "https://t.me/fileshomeofficial",
     "env": {
         "APP_ID": {
             "description": "Your APP ID From my.telegram.org",
@@ -42,7 +42,7 @@
             "required": false
         },
         "ADMIN_USERNAME": {
-            "description": "Your User Bane without '@'. Default will be Ts_bots",
+            "description": "Your Username without '@'. Default will be Ts_Bots",
             "value": "Ts_Bots", 
             "required": false
         }
