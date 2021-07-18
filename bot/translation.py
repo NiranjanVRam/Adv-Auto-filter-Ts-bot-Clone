@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG | @Hillard_Har 
+# (c) @niranjanvram | @fileshomeofficial 
 
 class Translation(object):
     
     START_TEXT = """
-😅 Hai {}, 
+😅 Hi {}, 
 
 I am a filter bot with advanced features 
 currently working for @{} 
@@ -45,7 +45,7 @@ currently working for @{}
             
             👉 <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-<b><a href="https://t.me/ts_bots">©️ ᴛʀᴀᴄᴋsᴛᴜᴅɪᴏ's ʙᴏᴛs</a></b>
+<b><a href="https://t.me/fhsupportgrp">©️ FILES HOME GROUP</a></b>
 """
     
     ABOUT_TEXT = """
@@ -60,11 +60,11 @@ currently working for @{}
 
 ○ ᴠᴇʀsɪᴏɴ : 1.0.0
 
-○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ 🥰](https://github.com/Ts-Bots/Adv-Auto-filter-Ts-bot-Clone)
+○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ 🥰](https://t.me/kurachkanjiedukkatte)
 
-○ ᴄʀᴇᴀᴛᴏʀ : [@Ts_bots](https://t.me/Ts_bots)
+○ ᴄʀᴇᴀᴛᴏʀ : [Dr. Strange](https://t.me/niranjanvram_bot)
 
-**ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ 26-4-21 ɪɴᴅɪᴀɴ ᴛɪᴍᴇ 4:50 ᴘᴍ**
+**JOIN FOR HELP/SUPPORT: @fhsupportgrp**
 
-**[©ᴛʀᴀᴄᴋsᴛᴜᴅɪᴏ's ʙᴏᴛ](https://t.me/ts_bots)**
+**[©FH GROUP](https://t.me/fileshomeofficial)**
 """
