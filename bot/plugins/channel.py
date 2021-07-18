@@ -68,7 +68,7 @@ async def connect(bot: Bot, update):
         pass
     
     except Exception:
-        await update.reply_text(f"My UserBot [{userbot_name}](tg://user?id={userbot_id}) Couldnt Join The Channel `{target}` Make Sure Userbot Is Not Banned There Or Add It Manually And Try Again....!!")
+        await update.reply_text(f"My UserBot [{userbot_name}](tg://user?id={userbot_id}) Could'nt Join The Channel `{target}` Make Sure Userbot Is Not Banned There Or Add It Manually And Try Again....!!")
         return
     
     try:
@@ -235,7 +235,7 @@ async def disconnect(bot: Bot, update):
         channel_info = await bot.USER.get_chat(target)
         channel_id = channel_info.id
     except Exception:
-        await update.reply_text(f"My UserBot [{userbot_name}](tg://user?id={userbot_id}) Couldnt Fetch Details Of `{target}` Make Sure Userbot Is Not Banned There Or Add It Manually And Try Again....!!")
+        await update.reply_text(f"My UserBot [{userbot_name}](tg://user?id={userbot_id}) Could'nt Fetch Details Of `{target}` Make Sure Userbot Is Not Banned There Or Add It Manually And Try Again....!!")
         return
     
     in_db = await db.in_db(chat_id, channel_id)
@@ -244,7 +244,7 @@ async def disconnect(bot: Bot, update):
         await update.reply_text("This Channel Is Not Connected With The Group...")
         return
     
-    wait_msg = await update.reply_text("Deleting All Files Of This Channel From DB....!!!\n\nPlease Be Patience...Dont Sent Another Command Until This Process Finishes..")
+    wait_msg = await update.reply_text("Deleting All Files Of This Channel From DB....!!!\n\nPlease Be Patient...Don't Sent Another Command Until This Process Finishes..")
     
     await db.del_filters(chat_id, channel_id)
     await db.del_active(chat_id, channel_id)
