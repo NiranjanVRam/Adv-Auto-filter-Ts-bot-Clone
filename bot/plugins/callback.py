@@ -143,7 +143,7 @@ async def cb_navg(bot, update: CallbackQuery):
     reply_markup = InlineKeyboardMarkup(temp_results)
 
 
-    text=f"**😃Got it \n\nYour Query 👉 {query}**"
+    text=f"**😃 Got it \n\nYour Query 👉 {query}\n\n© @fileshomeofficial \n\nNote: Results Will Be Saved In This Group Only For 48 Hours.. After that, It Will Be Automatically Deleted!!**",
         
     try:
         await update.message.edit(
