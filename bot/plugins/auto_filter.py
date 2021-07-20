@@ -107,7 +107,15 @@ async def auto_filter(bot, update):
             )
         
     else:
-        return # return if no files found for that query
+        await bot.send_message(
+                chat_id = update.chat.id,
+                text=f"**Couldn't Find This Movie.Please Try Again Or Search At Google.com For Correct Spelling Of The Movie.Copy It And Send Here
+
+ഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺**",
+                reply_markup=reply_markup,
+                parse_mode="markdown",
+                reply_to_message_id=update.message_id
+            ) # return if no files found for that query
     
 
     if len(results) == 0: # double check
