@@ -184,7 +184,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"**😃 Got it \n\nYour Query 👉 {query}\n\n© @fileshomeofficial \n\nNote: Results Will Be Saved In This Group Only For 48 Hours.. After that, It Will Be Automatically Deleted!!**",
+                text=f"**😃 Got it \n\nYour Query 👉 {query}\n\n© @fileshomeofficial \n\nNote: Results Will Be Saved In This Group Only For 24 Hours.. After that, It Will Be Automatically Deleted!!**",
                 reply_markup=reply_markup,
                 parse_mode="markdown",
                 reply_to_message_id=update.message_id
